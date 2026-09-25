@@ -1,0 +1,32 @@
+discount_band  orders  avg_margin_pct  loss_making_orders  profit_m
+-------------  ------  --------------  ------------------  --------
+0-5%           9652    52.5            0                   5.81    
+05-15%         50450   49.1            0                   30.47   
+15-25%         29412   43.8            0                   14.47   
+25-35%         12536   36.2            0                   6.3     
+35%+           11509   20.7            1229                2.71    
+orders_affected  current_avg_discount_pct  profit_today_m  profit_with_cap_m  profit_uplift_m
+---------------  ------------------------  --------------  -----------------  ---------------
+17293            39.5                      5.4             6.85               1.44           
+product_category        net_sales_m  margin_pct  loss_line_pct
+----------------------  -----------  ----------  -------------
+Electronics             33.49        32.6        4.4          
+Jewelry                 20.8         39.2        2.9          
+Home Appliances         20.3         39.9        2.6          
+Automotive              13.35        37.9        3.7          
+Sports & Outdoors       12.8         44.6        2.0          
+Home & Kitchen          8.95         46.1        1.2          
+Baby & Kids             7.96         48.5        1.2          
+Health & Wellness       7.52         44.9        1.4          
+Office Supplies         7.24         50.5        0.7          
+Fashion                 6.09         48.1        1.1          
+Pet Supplies            5.21         49.6        0.7          
+Toys & Games            4.48         50.1        0.5          
+Beauty & Personal Care  3.86         51.2        0.5          
+Grocery                 2.45         54.1        0.3          
+Books & Media           2.31         50.9        0.3          
+delivery_status  orders  avg_rating
+---------------  ------  ----------
+Delayed          16886   3.22      
+Early            9757    4.02      
+On Time          86916   3.73      

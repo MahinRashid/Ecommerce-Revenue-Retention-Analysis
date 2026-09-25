@@ -1,0 +1,7 @@
+ecommerce.db
+.DS_Store
+.venv/
+dashboard_data/
+powerbi/dashboard_data.zip
+.ipynb_checkpoints/
+powerbi/mockups/

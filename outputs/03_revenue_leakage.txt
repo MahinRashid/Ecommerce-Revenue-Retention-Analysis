@@ -1,0 +1,33 @@
+order_status  payment_status  orders  net_sales_m
+------------  --------------  ------  -----------
+Completed     Paid            102253  129.91     
+Completed     Pending         11306   14.28      
+Returned      Refunded        9462    13.17      
+Cancelled     Failed          8398    11.36      
+Pending       Pending         2669    3.35       
+Pending       Paid            1997    2.54       
+Pending       Failed          2031    2.52       
+year  orders  unpaid_m
+----  ------  --------
+2021  2259    2.83    
+2022  2242    2.85    
+2023  2309    2.95    
+2024  2262    2.81    
+2025  2234    2.84    
+year  stuck_orders  net_sales_m
+----  ------------  -----------
+2021  1283          1.63       
+2022  1387          1.78       
+2023  1316          1.65       
+2024  1384          1.73       
+2025  1327          1.62       
+return_reason            returns  net_sales_m
+-----------------------  -------  -----------
+Wrong Product            1237     1.71       
+Other                    1208     1.59       
+Changed Mind             1204     1.67       
+Size Issue               1182     1.66       
+Defective Product        1174     1.63       
+Late Delivery            1172     1.65       
+Product Not as Expected  1147     1.59       
+Damaged Product          1138     1.66       

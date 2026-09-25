@@ -1,0 +1,31 @@
+year  new_customers
+----  -------------
+2021  14913        
+2022  6035         
+2023  2435         
+2024  966          
+2025  399          
+avg_days_between_orders
+-----------------------
+296.0                  
+segment             customers  avg_days_since_order  avg_orders  lifetime_revenue_m  annual_revenue_m
+------------------  ---------  --------------------  ----------  ------------------  ----------------
+Champions           5366       70.0                  6.8         48.27               12.34           
+Loyal               5245       191.0                 5.3         35.81               10.79           
+Cannot Lose Them    2336       548.0                 6.2         19.78               7.32            
+Hibernating / Lost  5663       793.0                 2.5         16.4                10.48           
+At Risk             1901       630.0                 4.4         10.65               4.91            
+New / Promising     2539       77.0                  2.9         8.04                3.25            
+Needs Attention     1698       265.0                 2.8         5.25                2.33            
+decile  pct_of_revenue
+------  --------------
+1       22.9          
+2       16.5          
+3       13.6          
+4       11.5          
+5       9.8           
+6       8.2           
+7       6.8           
+8       5.3           
+9       3.7           
+10      1.7           

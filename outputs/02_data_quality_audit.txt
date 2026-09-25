@@ -1,0 +1,47 @@
+orders  unique_orders  customers  first_date  last_date 
+------  -------------  ---------  ----------  ----------
+138116  138116         24911      2021-01-01  2025-12-31
+orders_missing_customer  items_missing_order  items_missing_product  customers_never_ordered
+-----------------------  -------------------  ---------------------  -----------------------
+0                        0                    0                      89                     
+revenue_all_statuses  revenue_completed_only  overstatement
+--------------------  ----------------------  -------------
+177134263.74          144195838.5             32938425.24  
+orders_compared  quantity_mismatch  net_sales_mismatch
+---------------  -----------------  ------------------
+138116           11226              11226             
+order_status  delivery_status  payment_status  n    
+------------  ---------------  --------------  -----
+Cancelled     Cancelled        Failed          8398 
+Completed     On Time          Paid            78251
+Completed     Delayed          Paid            15242
+Completed     Early            Paid            8760 
+Completed     On Time          Pending         8665 
+Completed     Delayed          Pending         1644 
+Completed     Early            Pending         997  
+Pending       Cancelled        Pending         2669 
+Pending       Cancelled        Failed          2031 
+Pending       Cancelled        Paid            1997 
+Returned      Cancelled        Refunded        9462 
+customers  count_mismatch
+---------  --------------
+24911      9424          
+currency  n      avg_net_sales
+--------  -----  -------------
+AED       4172   1238.0       
+AUD       6794   1297.0       
+CAD       7015   1311.0       
+EUR       11593  1384.0       
+GBP       20235  1382.0       
+INR       5707   1352.0       
+USD       82600  1238.0       
+order_status  n       missing_rating
+------------  ------  --------------
+Cancelled     8398    8398          
+Completed     113559  0             
+Pending       6697    6697          
+Returned      9462    9462          
+has_coupon  n      avg_discount_pct
+----------  -----  ----------------
+0           90876  17.4            
+1           22683  17.4            

@@ -327,8 +327,8 @@ const PAGES = [
         ${kpi(1, "Profit from a 30% discount cap", "+$1.4M", "Assumes 20% of orders lost", "good")}
       </div>
       <div style="display:grid;grid-template-columns:1fr 1.25fr;grid-template-rows:1fr 1fr;gap:10px;min-height:0">
-        ${vis(2, "Discounts above 35% cut margin to 21%", "Average profit margin by discount depth",
-          columns({ w: 540, h: 185, max: 60, data: [["0–5%",52.5],["5–15%",49.1],["15–25%",43.8],["25–35%",36.2],["35%+",20.7]].map(([k,v]) => ({k,v})), label: d => d.v.toFixed(1) + "%", color: d => d.k === "35%+" ? C.red : C.blue }))}
+        ${vis(2, "Discounts above 35% cut margin to 18%", "Profit margin by discount depth (total profit ÷ revenue)",
+          columns({ w: 540, h: 185, max: 60, data: [["0–5%",50.4],["5–15%",47.4],["15–25%",41.6],["25–35%",33.3],["35%+",18.4]].map(([k,v]) => ({k,v})), label: d => d.v.toFixed(1) + "%", color: d => d.k === "35%+" ? C.red : C.blue }))}
         ${vis(4, "Electronics: biggest category, thinnest margin", "Each dot is a product category · completed orders only", scatter({ w: 700, h: 440, data: cats }), "grid-row:span 2")}
         ${vis(3, "Every loss-making order had a 35%+ discount", "Completed orders with negative profit",
           columns({ w: 540, h: 185, max: 1400, data: [["0–5%",0],["5–15%",0],["15–25%",0],["25–35%",0],["35%+",1229]].map(([k,v]) => ({k,v})), label: d => d.v.toLocaleString("en-US"), color: () => C.red }))}

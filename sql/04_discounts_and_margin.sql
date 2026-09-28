@@ -11,7 +11,7 @@ SELECT CASE
          WHEN discount_amount / gross_sales < 0.35 THEN '25-35%'
          ELSE '35%+' END AS discount_band,
        count(*) AS orders,
-       round(avg(profit_margin_percentage), 1) AS avg_margin_pct,
+       round(100.0 * sum(profit) / sum(net_sales), 1) AS margin_pct,  -- total profit / total revenue
        sum(profit < 0) AS loss_making_orders,
        round(sum(profit) / 1e6, 2) AS profit_m
 FROM orders WHERE order_status = 'Completed'

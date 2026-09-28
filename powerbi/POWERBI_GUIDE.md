@@ -320,7 +320,7 @@ Then **sync the slicers** across all pages: **View** → **Sync slicers** → ti
 
 | Visual | Fields | Settings / Title |
 |---|---|---|
-| **Column chart** | X: `discount_band` · Y: `Profit Margin %` | Columns → Color → **fx** → Format style: *Field value* → `Discount Bar Color`. Title: **"Discounts above 35% cut margin to 21%"** |
+| **Column chart** | X: `discount_band` · Y: `Profit Margin %` | Columns → Color → **fx** → Format style: *Field value* → `Discount Bar Color`. Title: **"Discounts above 35% cut margin to 18%"** |
 | **Column chart** | X: `discount_band` · Y: `Loss-Making Orders` | Same **fx** color. Title: **"Every loss-making order had a 35%+ discount"** |
 | **Card** | `Discount Cap Uplift` | Label: "Extra profit from a 30% discount cap (assumes 20% of orders lost)" |
 | **Scatter chart** | Values: `product_category` · X: `Item Revenue` · Y: `Item Margin %` | Category labels on. Title: **"Electronics: biggest category, thinnest margin (33%)"** |

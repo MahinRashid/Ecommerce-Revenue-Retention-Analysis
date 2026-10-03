@@ -3,7 +3,7 @@
 -- Requires 05_customer_retention_rfm.sql to have run first (uses the rfm table).
 --
 --   dim_customers (1) ──< fact_orders (1) ──< fact_order_items >── (product columns included)
---   dim_date is created inside Power BI with DAX (see POWERBI_GUIDE.md).
+--   dim_date is created inside Power BI with DAX.
 .headers on
 .mode csv
 
